@@ -31,6 +31,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor redColor];
 //    隐藏上导航
     self.navigationController.navigationBar.hidden = YES;
     
