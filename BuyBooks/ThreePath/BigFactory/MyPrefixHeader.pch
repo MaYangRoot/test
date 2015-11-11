@@ -1,0 +1,83 @@
+//
+//  MyPrefixHeader.pch
+//  faction
+//
+//  Created by QianFeng on 15/9/9.
+//  Copyright (c) 2015年 MaShaoYang. All rights reserved.
+//
+
+#ifndef faction_MyPrefixHeader_pch
+#define faction_MyPrefixHeader_pch
+
+
+
+//工厂
+#import "LabelFactory.h"
+#import "ButtonFactroy.h"
+#import "UIView+Add.h"
+#import "BaseViewController.h"
+#import "ViewFactory.h"
+#import "NetWorking.pch"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//释放
+//#define Release_Safe(_Con)
+//颜色
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:a / 255.0]
+#define RGB(r,g,b) RGBA(r,g,b,255)
+
+
+#define  GETVIEW(_view,_number)  [_view viewWithTag:_number]
+//屏幕长宽
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//距离左边边距为10
+#define LeftDistance 10
+//控件间的距离
+#define ControlDistance 20
+
+#define BlackColor [UIColor blackColor]
+#define WhiteColor [UIColor whiteColor]
+#define RedColor [UIColor redColor]
+#define GreenColor [UIColor greenColor]
+#define BlueColor [UIColor blueColor]
+#define OrangeColor [UIColor orangeColor]
+#define LightGrayColor [UIColor lightGrayColor]
+#define LightTextColor [UIColor lightTextColor]
+#define DarkGrayColor [UIColor darkGrayColor]
+#define ClearColor [UIColor clearColor]
+#define PurpleColor [UIColor purpleColor]
+
+//随机颜色
+#define RandomColor RGB(arc4random()%256,arc4random()%256,arc4random()%256)
+
+
+
+
+
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

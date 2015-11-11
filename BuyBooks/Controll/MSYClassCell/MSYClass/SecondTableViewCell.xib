@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="MSYSecond" selectionStyle="default" indentationWidth="10" reuseIdentifier="MSYSecond" rowHeight="158" id="KGk-i7-Jjw" customClass="SecondTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="SecondMSY" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="157"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHL-7c-shX">
+                        <rect key="frame" x="38" y="115" width="100" height="30"/>
+                        <color key="backgroundColor" red="1" green="0.42761275413681277" blue="0.16630888414986578" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="Vrq-4B-hC3"/>
+                            <constraint firstAttribute="height" constant="30" id="oAu-mK-yee"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="tintColor" red="1" green="0.87536007215967759" blue="0.87135431196410273" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="50" maxY="0.0"/>
+                        <state key="normal" title="加入购物车" image="personal_center_bookstore_entr_03.png"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7E-6n-Ick">
+                        <rect key="frame" x="232" y="115" width="100" height="30"/>
+                        <color key="backgroundColor" red="1" green="0.42761275409999999" blue="0.1663088841" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="HsJ-l0-3KK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="加入收藏" image="star.png"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YR-Ii-UB9">
+                        <rect key="frame" x="28" y="18" width="29" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="zXE-ZB-3Y8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="售价" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jb4-zf-rst">
+                        <rect key="frame" x="28" y="58" width="36" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="CRl-0c-xBh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="库存" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNi-hx-TUz">
+                        <rect key="frame" x="308" y="84" width="34" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="FzZ-mc-FhB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="品相" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOd-vO-NQ9">
+                        <rect key="frame" x="28" y="84" width="34" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="AXo-WR-byx"/>
+                            <constraint firstAttribute="height" constant="21" id="Zf8-dE-OR7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vHL-7c-shX" firstAttribute="top" secondItem="LOd-vO-NQ9" secondAttribute="bottom" constant="10" id="1Ge-dj-T1R"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="8YR-Ii-UB9" secondAttribute="trailing" constant="10" id="6ce-gs-Qyi"/>
+                    <constraint firstItem="sNi-hx-TUz" firstAttribute="bottom" secondItem="LOd-vO-NQ9" secondAttribute="bottom" id="9m4-by-YBQ"/>
+                    <constraint firstItem="sNi-hx-TUz" firstAttribute="top" secondItem="LOd-vO-NQ9" secondAttribute="top" id="Af4-tE-UGe"/>
+                    <constraint firstItem="Jb4-zf-rst" firstAttribute="top" secondItem="8YR-Ii-UB9" secondAttribute="bottom" constant="5" id="BPI-1p-yqy"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="sNi-hx-TUz" secondAttribute="trailing" constant="20" id="QId-Ei-eny"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Jb4-zf-rst" secondAttribute="trailing" constant="10" id="UYw-eN-UkW"/>
+                    <constraint firstItem="Jb4-zf-rst" firstAttribute="leading" secondItem="8YR-Ii-UB9" secondAttribute="leading" id="Ywy-Cf-iaQ"/>
+                    <constraint firstItem="C7E-6n-Ick" firstAttribute="trailing" secondItem="sNi-hx-TUz" secondAttribute="trailing" constant="-10" id="Z9e-f7-z8E"/>
+                    <constraint firstItem="8YR-Ii-UB9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="aX9-TJ-hMA"/>
+                    <constraint firstItem="LOd-vO-NQ9" firstAttribute="top" secondItem="Jb4-zf-rst" secondAttribute="bottom" constant="5" id="k9u-25-7aM"/>
+                    <constraint firstItem="C7E-6n-Ick" firstAttribute="bottom" secondItem="vHL-7c-shX" secondAttribute="bottom" id="mOU-mE-FBA"/>
+                    <constraint firstItem="vHL-7c-shX" firstAttribute="leading" secondItem="LOd-vO-NQ9" secondAttribute="leading" constant="10" id="omX-r8-8yh"/>
+                    <constraint firstItem="8YR-Ii-UB9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="riL-nM-Urq"/>
+                    <constraint firstItem="C7E-6n-Ick" firstAttribute="top" secondItem="vHL-7c-shX" secondAttribute="top" id="vMQ-86-cwD"/>
+                    <constraint firstItem="LOd-vO-NQ9" firstAttribute="leading" secondItem="Jb4-zf-rst" secondAttribute="leading" id="z9J-d1-p3F"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="177" y="316"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="personal_center_bookstore_entr_03.png" width="25" height="25"/>
+        <image name="star.png" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,50 @@
+//
+//  NetWorking.pch
+//  BuyBooks
+//
+//  Created by QianFeng on 15/11/6.
+//  Copyright © 2015年 马扬. All rights reserved.
+//
+
+#ifndef NetWorking_pch
+#define NetWorking_pch
+
+
+
+
+/*
+ *password=ufifhchcjfi&username=fhchxh2312chchcjjtaj
+ *注册页面的网络请求
+ *password 密码
+ *userName 账号
+ */
+#define REGISTER @"http://app.kongfz.com/user/register?apiId=%E5%AD%94%E5%A4%AB%E5%AD%90%E6%97%A7%E4%B9%A6%E7%BD%91_iOS_1.4.3_1.0&appId=1002&appName=%E5%AD%94%E5%A4%AB%E5%AD%90%E6%97%A7%E4%B9%A6%E7%BD%91&"
+
+/*
+ *分类页面网络请求第一，第二层
+ */
+#define MSYCLASSFIRST @"http://app.kongfz.com/shop/listCat"
+//apiId=%E5%AD%94%E5%A4%AB%E5%AD%90%E6%97%A7%E4%B9%A6%E7%BD%91_iOS_1.4.3_1.0&catId=0
+
+/*
+ *分类页面第三层请求
+ */
+
+#define MSYCLASSTHREE @"http://app.kongfz.com/shop/listCatBook?apiId=%E5%AD%94%E5%A4%AB%E5%AD%90%E6%97%A7%E4%B9%A6%E7%BD%91_iOS_1.4.3_1.0&catId="
+//&order=0&page=0
+
+
+/*
+ *分类页面图书详情页面请求
+ */
+
+#define MSYCLASSFOUR @"http://app.kongfz.com/shop/getItemInfo?apiId=%E5%AD%94%E5%A4%AB%E5%AD%90%E6%97%A7%E4%B9%A6%E7%BD%91_iOS_1.4.3_1.0&itemId="
+//405021824&shopId=5812
+
+
+
+
+
+
+
+#endif /* NetWorking_pch */
